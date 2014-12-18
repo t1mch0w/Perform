@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/HomeView" android:title="Home"
+    android:orderInCategory="100" android:showAsAction="always"
+        android:icon="@drawable/home"/>
+    <item android:id="@+id/ChartView" android:title="Chart"
+        android:orderInCategory="100" android:showAsAction="always"
+        android:icon="@drawable/risegraph"/>
+    <item android:id="@+id/SettingView" android:title="Setting"
+        android:orderInCategory="100" android:showAsAction="always"
+        android:icon="@drawable/spanner"/>
+
+</menu>
